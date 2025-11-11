@@ -107,21 +107,25 @@ a place to build, break, learn, and rebuild endlessly.
 
 --
 
-🔧 Stack Overview
-Component	Description
-Host	Lenovo Core i5 (16 GB RAM, 525 GB SSD)
-Additional Drive	1 TB HDD (mounted via fstab)
-Virtualization Platform	Proxmox VE
-File System	ext4
-Storage Mount Point	/mnt/Vault
+# 🔧 Stack Overview
+
+
+
+| Component                   | Description                            |
+| --------------------------- | -------------------------------------- |
+| **Host**                    | Lenovo Core i5 (16 GB RAM, 525 GB SSD) |
+| **Additional Drive**        | 1 TB HDD (mounted via fstab)           |
+| **Virtualization Platform** | Proxmox VE                             |
+| **File System**             | ext4                                   |
+| **Storage Mount Point**     | `/mnt/Vault`                           |
 
 
 
 ## 🧩 Next Steps
 
-- **Add network automation (Ansible or Terraform integration)
-- **Test multi-node configuration
-- **Explore containerized service clusters
+- Add network automation (Ansible or Terraform integration)
+- Test multi-node configuration
+- Explore containerized service clusters
 
 
 
