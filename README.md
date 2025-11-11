@@ -119,11 +119,9 @@ Storage Mount Point	/mnt/Vault
 
 ## 🧩 Next Steps
 
-Add network automation (Ansible or Terraform integration)
-
-Test multi-node configuration
-
-Explore containerized service clusters
+- **Add network automation (Ansible or Terraform integration)
+- **Test multi-node configuration
+- **Explore containerized service clusters
 
 
 
