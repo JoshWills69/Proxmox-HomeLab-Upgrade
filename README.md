@@ -115,7 +115,9 @@ To test without rebooting:
 
     sudo mount -a
 
-I initially got an error, turned out my mount point used lowercase instead of uppercase.
+
+
+This mounts all file systems in fstab without rebooting. I did run into an error here, turned out my mount point used lowercase instead of uppercase in the directory path.
 After fixing the directory name, everything worked as expected.
 
 Then I confirmed it:
