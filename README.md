@@ -3,18 +3,18 @@ A step by step guide to optimizing and configuring my proxmox home lab
 
 # 🧠 My Proxmox Lab Upgrade Journey  
 
-I’ve always wanted to take my home lab a little further, not just add more hardware, but truly give myself a space where I could **build freely**, break things, fix them, and push limits without worrying about running out of resources.  
+
+I’ve always wanted to upgrade my home lab, more like take it a little further. Not just add more hardware or more power, but truly give myself a space where I could **build freely**, break things, fix them, and push limits without worrying about running out of resources.. I sometimes ran into limitations and wanted an environment where I could work, build and experiment freely, without constraints.
 
 That thought kept coming back to me each time I hit a technical ceiling. I’d be halfway through a test lab or simulation and think:  
-> “If only I had a bit more compute or storage...”  
+> “If only I had a bit more compute or storage...”
 
-So one weekend, I decided to stop thinking and start building.  
 
 ---
 
 ## ⚙️ The Hardware  
 
-I had two spare PCs lying around:  
+So one weekend, I decided to expand my setup and create a more capable Proxmox workspace. I repurposed two old PCs I recently got:  
 
 - **Lenovo** — Core i5, 16 GB RAM, 525 GB SSD  
 - **Acer** — Core i3, 8 GB RAM, 1 TB HDD  
@@ -79,7 +79,7 @@ This formats the disk with an ext4 file system, preparing it for use.
 </p>
 
 
-Running lsblk confirmed that my new partition was created successfully.
+Running ```lsblk``` confirmed that my new partition was created successfully.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/JoshWills69/Proxmox-HomeLab-Upgrade/7da8aaa4851e182a9acbc2ebfa1590c2752a6d96/image6.png" alt="Proxmox Disk Layout" width="500">
